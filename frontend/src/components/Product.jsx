@@ -2,7 +2,7 @@ import { Snackbar } from '@mui/material';
 import { FaArrowLeft } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import { useState, useRef } from "react";
-import Dropdown from './dropdown';
+import Dropdown from './Dropdown';
 
 const Product = () => {
 
