@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+    width: 100%;
+    height: 100%;
+    background-color: #F5F6FA;
+}
+
+/* Signin.jsx */
+
+.signin{
+    font-family: 'DM Sans', sans-serif;
+}
+
+#signin-header , .signin-box label{
+    color: #2B3674;
+}
+
+.font-plus-jakarta{
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.font-inter{
+    font-family: "Inter", sans-serif;
+}
+
+.font-montserrat{
+    font-family: "Montserrat", sans-serif;
+}
+
+.signin-back{
+    background-image: url('src/assets/images/signin-background.png');
+    background-size: cover; /* This will ensure the image covers the entire div */
+    background-position: center center; /* This centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-size: 100% 100%;
+    object-fit: contain;
+}
+
+/* Sidebar.jsx */
+
+.dashboard_menu_link{
+    color: #202224;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: "Nunito Sans", sans-serif;
+    padding: 15px 20px;
+    margin: 10px 0px;
+    gap: 10px;
+    border-radius: 5px;
+}
+
+/* Navbar.jsx */
+
+#search_input , .font-nunito{
+    font-family: "Nunito Sans", sans-serif;
+}
+
+.dropdown_content {
+    padding: 15px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    width: 200px;
+}
+.dropdown_list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    color: #333;
+}
+.dropdown_item {
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.dropdown_item:hover {
+    background-color: #f4f4f4;
+}
+
+.logout:hover{
+    background-color: #563091;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Edge */
+    scroll-behavior: smooth;
+}
+
+/* Users.jsx */
+
+.text-32{
+    font-size: 32px;
+}
+
+select option{
+    background-color: white;
+}
+
+select:focus{
+    outline: none;
+}
+
+/* Usertable.jsx */
+
+th, td{
+    white-space: nowrap;
+}
+
+/* Adduser.jsx */
+
+/* Custom style for select dropdown */
+.custom-select {
+    appearance: none; /* Removes default browser arrow */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <path fill-rule="evenodd" clip-rule="evenodd" d="M3.13523 6.15803C3.3241 5.95657 3.64052 5.94637 3.84197 6.13523L7.5 9.56464L11.158 6.13523C11.3595 5.94637 11.6759 5.95657 11.8648 6.15803C12.0536 6.35949 12.0434 6.67591 11.842 6.86477L7.84197 10.6148C7.64964 10.7951 7.35036 10.7951 7.15803 10.6148L3.15803 6.86477C2.95657 6.67591 2.94637 6.35949 3.13523 6.15803Z" fill="%23000000"></path> </g></svg>');
+    background-repeat: no-repeat;
+    background-position: right 10px center; /* Adjust margin here */
+    background-size: 18px;
+    padding-right: 30px; /* Extra padding for the arrow space */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    cursor: pointer;
+}

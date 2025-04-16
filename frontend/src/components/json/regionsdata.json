@@ -1,0 +1,37 @@
+{
+    "Vikasnagar": [
+        { "id": "GIC Nakot", "name": "GIC Nakot", "infrastructure": 5, "ict": 5, "software": 3, "teacherTraining": 0, "overallScore": 3, "priority": "Priority 1" },
+        { "id": "GIC Nagani", "name": "GIC Nagani", "infrastructure": 5, "ict": 5, "software": 3, "teacherTraining": 0, "overallScore": 3, "priority": "Priority 2" },
+        { "id": "GHS Khand", "name": "GHS Khand", "infrastructure": 5, "ict": 5, "software": 3, "teacherTraining": 0, "overallScore": 3, "priority": "Priority 4" },
+        { "id": "GIC Gaja", "name": "GIC Gaja", "infrastructure": 5, "ict": 5, "software": 3, "teacherTraining": 0, "overallScore": 3, "priority": "Priority 3" },
+        { "id": "GIC Nagdev", "name": "GIC Nagdev", "infrastructure": 5, "ict": 5, "software": 3, "teacherTraining": 0, "overallScore": 3, "priority": "Priority 5" }
+    ],
+    "Chakrata": [
+        { "id": "GIC Chakrata1", "name": "GIC Chakrata1", "infrastructure": 4, "ict": 4, "software": 3, "teacherTraining": 2, "overallScore": 3, "priority": "Priority 1" },
+        { "id": "GHS Chakrata2", "name": "GHS Chakrata2", "infrastructure": 5, "ict": 5, "software": 4, "teacherTraining": 3, "overallScore": 4, "priority": "Priority 2" },
+        { "id": "GIC Chakrata3", "name": "GIC Chakrata3", "infrastructure": 4, "ict": 4, "software": 3, "teacherTraining": 1, "overallScore": 3, "priority": "Priority 3" },
+        { "id": "GIC Chakrata4", "name": "GIC Chakrata4", "infrastructure": 3, "ict": 3, "software": 2, "teacherTraining": 1, "overallScore": 2, "priority": "Priority 4" },
+        { "id": "GIC Chakrata5", "name": "GIC Chakrata5", "infrastructure": 5, "ict": 5, "software": 5, "teacherTraining": 4, "overallScore": 5, "priority": "Priority 5" }
+    ],
+    "Diwali": [
+        { "id": "GIC Diwali1", "name": "GIC Diwali1", "infrastructure": 5, "ict": 5, "software": 3, "teacherTraining": 3, "overallScore": 4, "priority": "Priority 1" },
+        { "id": "GHS Diwali2", "name": "GHS Diwali2", "infrastructure": 4, "ict": 4, "software": 2, "teacherTraining": 2, "overallScore": 3, "priority": "Priority 2" },
+        { "id": "GIC Diwali3", "name": "GIC Diwali3", "infrastructure": 3, "ict": 3, "software": 2, "teacherTraining": 1, "overallScore": 2, "priority": "Priority 3" },
+        { "id": "GIC Diwali4", "name": "GIC Diwali4", "infrastructure": 4, "ict": 5, "software": 4, "teacherTraining": 2, "overallScore": 4, "priority": "Priority 4" },
+        { "id": "GIC Diwali5", "name": "GIC Diwali5", "infrastructure": 5, "ict": 5, "software": 5, "teacherTraining": 4, "overallScore": 5, "priority": "Priority 5" }
+    ],
+    "Sahaspur": [
+        { "id": "GIC Sahaspar1", "name": "GIC Sahaspar1", "infrastructure": 5, "ict": 5, "software": 4, "teacherTraining": 1, "overallScore": 4, "priority": "Priority 1" },
+        { "id": "GHS Sahaspar2", "name": "GHS Sahaspar2", "infrastructure": 4, "ict": 3, "software": 3, "teacherTraining": 2, "overallScore": 3, "priority": "Priority 2" },
+        { "id": "GIC Sahaspar3", "name": "GIC Sahaspar3", "infrastructure": 3, "ict": 4, "software": 2, "teacherTraining": 1, "overallScore": 2, "priority": "Priority 3" },
+        { "id": "GIC Sahaspar4", "name": "GIC Sahaspar4", "infrastructure": 4, "ict": 5, "software": 4, "teacherTraining": 3, "overallScore": 4, "priority": "Priority 4" },
+        { "id": "GIC Sahaspar5", "name": "GIC Sahaspar5", "infrastructure": 5, "ict": 4, "software": 3, "teacherTraining": 2, "overallScore": 4, "priority": "Priority 5" }
+    ],
+    "Kalsi": [
+        { "id": "GIC Kalsi1", "name": "GIC Kalsi1", "infrastructure": 5, "ict": 4, "software": 3, "teacherTraining": 2, "overallScore": 3, "priority": "Priority 1" },
+        { "id": "GHS Kalsi2", "name": "GHS Kalsi2", "infrastructure": 4, "ict": 5, "software": 2, "teacherTraining": 1, "overallScore": 3, "priority": "Priority 2" },
+        { "id": "GIC Kalsi3", "name": "GIC Kalsi3", "infrastructure": 5, "ict": 5, "software": 3, "teacherTraining": 3, "overallScore": 4, "priority": "Priority 3" },
+        { "id": "GIC Kalsi4", "name": "GIC Kalsi4", "infrastructure": 3, "ict": 4, "software": 2, "teacherTraining": 2, "overallScore": 2, "priority": "Priority 4" },
+        { "id": "GIC Kalsi5", "name": "GIC Kalsi5", "infrastructure": 4, "ict": 3, "software": 3, "teacherTraining": 1, "overallScore": 3, "priority": "Priority 5" }
+    ]
+}

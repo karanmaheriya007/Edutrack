@@ -1,0 +1,37 @@
+{
+    "dehradun": [
+        { "id": "Vikasnagar", "name": "Vikasnagar", "infrastructure": 5, "ict": 5, "software": 3, "teacherTraining": 0, "overallScore": 3, "priority": "Priority 1" },
+        { "id": "Chakrata", "name": "Chakrata", "infrastructure": 5, "ict": 5, "software": 3, "teacherTraining": 0, "overallScore": 3, "priority": "Priority 2" },
+        { "id": "Diwali", "name": "Diwali", "infrastructure": 5, "ict": 5, "software": 3, "teacherTraining": 0, "overallScore": 3, "priority": "Priority 4" },
+        { "id": "Sahaspar", "name": "Sahaspar", "infrastructure": 5, "ict": 5, "software": 3, "teacherTraining": 0, "overallScore": 3, "priority": "Priority 3" },
+        { "id": "Kalsi", "name": "Kalsi", "infrastructure": 5, "ict": 5, "software": 3, "teacherTraining": 0, "overallScore": 3, "priority": "Priority 5" }
+    ],
+    "haridwar": [
+        { "id": "Roorkee", "name": "Roorkee", "infrastructure": 4, "ict": 5, "software": 3, "teacherTraining": 1, "overallScore": 3, "priority": "Priority 1" },
+        { "id": "Haridwar City", "name": "Haridwar City", "infrastructure": 5, "ict": 5, "software": 4, "teacherTraining": 2, "overallScore": 4, "priority": "Priority 2" },
+        { "id": "Laksar", "name": "Laksar", "infrastructure": 3, "ict": 4, "software": 2, "teacherTraining": 0, "overallScore": 2, "priority": "Priority 4" },
+        { "id": "Bahadrabad", "name": "Bahadrabad", "infrastructure": 5, "ict": 5, "software": 4, "teacherTraining": 3, "overallScore": 5, "priority": "Priority 3" },
+        { "id": "Khanpur", "name": "Khanpur", "infrastructure": 4, "ict": 3, "software": 3, "teacherTraining": 1, "overallScore": 3, "priority": "Priority 5" }
+    ],
+    "chamoli": [
+        { "id": "Gopeshwar", "name": "Gopeshwar", "infrastructure": 5, "ict": 5, "software": 3, "teacherTraining": 0, "overallScore": 3, "priority": "Priority 1" },
+        { "id": "Joshimath", "name": "Joshimath", "infrastructure": 4, "ict": 5, "software": 4, "teacherTraining": 2, "overallScore": 4, "priority": "Priority 2" },
+        { "id": "Karnprayag", "name": "Karnprayag", "infrastructure": 3, "ict": 4, "software": 2, "teacherTraining": 1, "overallScore": 2, "priority": "Priority 4" },
+        { "id": "Chamoli City", "name": "Chamoli City", "infrastructure": 5, "ict": 5, "software": 4, "teacherTraining": 3, "overallScore": 5, "priority": "Priority 3" },
+        { "id": "Tharali", "name": "Tharali", "infrastructure": 4, "ict": 4, "software": 3, "teacherTraining": 1, "overallScore": 3, "priority": "Priority 5" }
+    ],
+    "rudraprayag": [
+        { "id": "Rudraprayag City", "name": "Rudraprayag City", "infrastructure": 5, "ict": 5, "software": 4, "teacherTraining": 2, "overallScore": 4, "priority": "Priority 1" },
+        { "id": "Ukhimath", "name": "Ukhimath", "infrastructure": 4, "ict": 4, "software": 3, "teacherTraining": 1, "overallScore": 3, "priority": "Priority 2" },
+        { "id": "Augustmuni", "name": "Augustmuni", "infrastructure": 3, "ict": 3, "software": 2, "teacherTraining": 0, "overallScore": 2, "priority": "Priority 4" },
+        { "id": "Guptkashi", "name": "Guptkashi", "infrastructure": 5, "ict": 5, "software": 4, "teacherTraining": 3, "overallScore": 5, "priority": "Priority 3" },
+        { "id": "Tilwara", "name": "Tilwara", "infrastructure": 4, "ict": 4, "software": 3, "teacherTraining": 1, "overallScore": 3, "priority": "Priority 5" }
+    ],
+    "uttarkashi": [
+        { "id": "Bhatwari", "name": "Bhatwari", "infrastructure": 5, "ict": 5, "software": 3, "teacherTraining": 1, "overallScore": 3, "priority": "Priority 1" },
+        { "id": "Dunda", "name": "Dunda", "infrastructure": 5, "ict": 5, "software": 3, "teacherTraining": 2, "overallScore": 4, "priority": "Priority 2" },
+        { "id": "Mori", "name": "Mori", "infrastructure": 3, "ict": 4, "software": 2, "teacherTraining": 0, "overallScore": 2, "priority": "Priority 4" },
+        { "id": "Purola", "name": "Purola", "infrastructure": 5, "ict": 5, "software": 4, "teacherTraining": 3, "overallScore": 5, "priority": "Priority 3" },
+        { "id": "Naugaon", "name": "Naugaon", "infrastructure": 4, "ict": 3, "software": 3, "teacherTraining": 1, "overallScore": 3, "priority": "Priority 5" }
+    ]
+}

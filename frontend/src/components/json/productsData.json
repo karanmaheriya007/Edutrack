@@ -1,0 +1,68 @@
+{
+    "hardware": [
+        {
+            "id": 1,
+            "title": "5 IFPDs",
+            "image": "/src/assets/images/ifpd.png"
+        },
+        {
+            "id": 2,
+            "title": "12 Computers",
+            "image": "/src/assets/images/computer.png"
+        },
+        {
+            "id": 3,
+            "title": "3 Projectors",
+            "image": "/src/assets/images/projector.png"
+        },
+        {
+            "id": 4,
+            "title": "Tinkering Lab",
+            "image": "/src/assets/images/lab.png"
+        }
+    ],
+    "software": [
+        {
+            "id": 1,
+            "title": "Microsoft Office Suite",
+            "image": "/src/assets/images/office.png"
+        },
+        {
+            "id": 2,
+            "title": "Adobe Creative Cloud",
+            "image": "/src/assets/images/adobe.png"
+        },
+        {
+            "id": 3,
+            "title": "Visual Studio Code",
+            "image": "/src/assets/images/vscode.png"
+        },
+        {
+            "id": 4,
+            "title": "AutoCAD",
+            "image": "/src/assets/images/autocad.png"
+        }
+    ],
+    "internet": [
+        {
+            "id": 1,
+            "title": "High-Speed Fiber Internet",
+            "image": "/src/assets/images/fiber.png"
+        },
+        {
+            "id": 2,
+            "title": "Wi-Fi Access Points",
+            "image": "/src/assets/images/wifi.png"
+        },
+        {
+            "id": 3,
+            "title": "LAN Connectivity",
+            "image": "/src/assets/images/lan.png"
+        },
+        {
+            "id": 4,
+            "title": "Backup Internet Service",
+            "image": "/src/assets/images/backup.png"
+        }
+    ]
+}

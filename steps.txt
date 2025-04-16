@@ -1,0 +1,83 @@
+//backend
+
+1.npm init -y
+2.npm install express mongoose cors dotenv bcryptjs jsonwebtoken cookie-parser
+3.create server.js, app.js & .env
+→ app.js : Sets up the Express application (routes, middleware, etc.).
+→ server.js : Starts the server and connects to the database.
+4. add logic in app.js and use it into server.js
+5. create config, models, controllers, routes, middlewares, utils folders
+📂 config/ → (First, connect to the database!)
+Before anything else, MongoDB must be connected.
+Create config/connectDB.js.
+Set up .env for MONGO_URI.
+📂 models/ → (Define database structure)
+Create schemas (e.g., User.js, Post.js).
+This ensures your database has a proper format before adding logic.
+📂 controllers/ → (Write the core logic: register, login, etc.)
+Create functions like registerUser, loginUser, getUserProfile.
+These functions interact with models/.
+📂 routes/ → (Create API paths and link to controllers)
+Define API routes like /api/users/register.
+Connect them to the right controllers.
+📂 middlewares/ → (Add security, authentication, and error handling)
+Create authentication middleware (e.g., authMiddleware.js).
+Handle errors properly.
+📂 utils/ → (Add reusable helper functions last)
+Create token generation (generateToken.js).
+Any other helper functions like email sending.
+6. Create config/connectDB.js and use it into server.js
+7. Create models/user.model.js use it into following controller
+9. also Create utils/generateToken.js and utils/hashPassword.js and use it into following controller
+8. Create controllers/user.controller.js and use it in following route
+10. Create routes/user.route.js and use it in app.js
+
+//frontend
+1. npm create vite@latest
+2. cd frontend
+3. npm i
+4. go to https://v3.tailwindcss.com/docs/guides/vite
+5. npm install -D tailwindcss@3 postcss autoprefixer
+6. npx tailwindcss init -p (or create tailwind.config.js and postcss.config.js)
+7. replace code of tailwind.config.js with following code :
+
+/** @type {import('tailwindcss').Config} */
+export default {
+  content: [
+    "./index.html",
+    "./src/**/*.{js,ts,jsx,tsx}",
+  ],
+  theme: {
+    extend: {},
+  },
+  plugins: [],
+}
+
+8. replace code of src/index.css with the following code :
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+9. you can delete App.css
+10. remove all code of src/App.jsx and type rafce
+11. you can add the following code into eslint.config.js for unused variables and props :
+
+{
+  "rules": {
+    "no-unused-vars": "off",
+    "react/prop-types": "off"
+  }
+}
+
+12. npm run dev
+13. npm i react-router-dom
+14. create routes in App.jsx
+15. create Login.jsx , Signup.jsx , Home.jsx
+16. create .env and add URL of backend in that
+17. npm i axios
+18. implement form logic in Login.jsx , Signup.jsx
+19. npm install @mui/material @emotion/react @emotion/styled
+20. use Alert from material ui
+21. also make ProtectedRoute.jsx for (only authenticated user can access home)
+22. npm install framer-motion (for animation)
