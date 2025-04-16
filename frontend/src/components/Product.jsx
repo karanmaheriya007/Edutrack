@@ -8,7 +8,7 @@ const Product = () => {
 
     const [products, setProducts] = useState([
         {
-            image: '/src/assets/images/computer1.png',
+            image: '/images/computer1.png',
             comments: 'The project is in review, pending further feedback.',
             status: 'In Review',
             updateDate: '31/05/2024',
@@ -16,7 +16,7 @@ const Product = () => {
             rejectReason: '',
         },
         {
-            image: '/src/assets/images/computer1.png',
+            image: '/images/computer1.png',
             comments: 'Approved, everything is in order.',
             status: 'Approved',
             updateDate: '31/05/2024',
@@ -24,7 +24,7 @@ const Product = () => {
             rejectReason: '',
         },
         {
-            image: '/src/assets/images/computer4.png',
+            image: '/images/computer4.png',
             comments: 'The project is in review, pending further feedback.',
             status: 'In Review',
             updateDate: '31/05/2024',
@@ -32,7 +32,7 @@ const Product = () => {
             rejectReason: '',
         },
         {
-            image: '/src/assets/images/computer1.png',
+            image: '/images/computer1.png',
             comments: 'The submission doesn\'t meet the requirements.',
             status: 'Rejected',
             updateDate: '31/05/2024',

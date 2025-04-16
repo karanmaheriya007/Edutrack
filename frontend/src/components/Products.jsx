@@ -4,7 +4,7 @@ import Shopinfo from "./Shopinfo";
 
 const products = [
     {
-        image: '/src/assets/images/computer1.png',
+        image: '/images/computer1.png',
         name: 'Zebronics Zeb256 Desktop',
         info: '8GB/RAM',
         status: 'Approved',
@@ -13,7 +13,7 @@ const products = [
         barcode: '1567854545464665'
     },
     {
-        image: '/src/assets/images/computer2.png',
+        image: '/images/computer2.png',
         name: 'Zebronics Zeb256 Desktop',
         info: '8GB/RAM',
         status: 'In Review',
@@ -22,7 +22,7 @@ const products = [
         barcode: '1567854545464665'
     },
     {
-        image: '/src/assets/images/computer3.png',
+        image: '/images/computer3.png',
         name: 'Mac book M1',
         info: '8GB/RAM',
         status: 'Rejected',
@@ -31,7 +31,7 @@ const products = [
         barcode: '1567854545464665'
     },
     {
-        image: '/src/assets/images/noimg.png',
+        image: '/images/noimg.png',
         name: 'Zebronics Zeb256 Desktop',
         info: '8GB/RAM',
         status: 'Pending Image',
