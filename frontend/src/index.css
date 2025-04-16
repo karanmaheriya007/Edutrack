@@ -39,7 +39,7 @@ html, body{
 }
 
 .signin-back{
-    background-image: url('src/assets/images/signin-background.png');
+    background-image: url('/images/signin-background.png');
     background-size: cover; /* This will ensure the image covers the entire div */
     background-position: center center; /* This centers the image */
     background-repeat: no-repeat; /* Prevents the image from repeating */

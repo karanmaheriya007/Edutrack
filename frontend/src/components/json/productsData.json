@@ -3,66 +3,66 @@
         {
             "id": 1,
             "title": "5 IFPDs",
-            "image": "/src/assets/images/ifpd.png"
+            "image": "/images/ifpd.png"
         },
         {
             "id": 2,
             "title": "12 Computers",
-            "image": "/src/assets/images/computer.png"
+            "image": "/images/computer.png"
         },
         {
             "id": 3,
             "title": "3 Projectors",
-            "image": "/src/assets/images/projector.png"
+            "image": "/images/projector.png"
         },
         {
             "id": 4,
             "title": "Tinkering Lab",
-            "image": "/src/assets/images/lab.png"
+            "image": "/images/lab.png"
         }
     ],
     "software": [
         {
             "id": 1,
             "title": "Microsoft Office Suite",
-            "image": "/src/assets/images/office.png"
+            "image": "/images/office.png"
         },
         {
             "id": 2,
             "title": "Adobe Creative Cloud",
-            "image": "/src/assets/images/adobe.png"
+            "image": "/images/adobe.png"
         },
         {
             "id": 3,
             "title": "Visual Studio Code",
-            "image": "/src/assets/images/vscode.png"
+            "image": "/images/vscode.png"
         },
         {
             "id": 4,
             "title": "AutoCAD",
-            "image": "/src/assets/images/autocad.png"
+            "image": "/images/autocad.png"
         }
     ],
     "internet": [
         {
             "id": 1,
             "title": "High-Speed Fiber Internet",
-            "image": "/src/assets/images/fiber.png"
+            "image": "/images/fiber.png"
         },
         {
             "id": 2,
             "title": "Wi-Fi Access Points",
-            "image": "/src/assets/images/wifi.png"
+            "image": "/images/wifi.png"
         },
         {
             "id": 3,
             "title": "LAN Connectivity",
-            "image": "/src/assets/images/lan.png"
+            "image": "/images/lan.png"
         },
         {
             "id": 4,
             "title": "Backup Internet Service",
-            "image": "/src/assets/images/backup.png"
+            "image": "/images/backup.png"
         }
     ]
 }

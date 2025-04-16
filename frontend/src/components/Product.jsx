@@ -262,7 +262,7 @@ const Product = () => {
                                             <button
                                                 onClick={() => handleAccept(index)}
                                                 className="text-[#00B69B] text-xs font-bold ml-2 px-3 py-1 border-2 border-[#00B69B] rounded-2xl"
-                                            >Accept<img src="/src/assets/images/green-tick.svg" alt="tick" className="pl-3 inline align-baseline" /></button>
+                                            >Accept<img src="/images/green-tick.svg" alt="tick" className="pl-3 inline align-baseline" /></button>
                                         </>
                                     )}
                                     {product.status === 'Approved' && (

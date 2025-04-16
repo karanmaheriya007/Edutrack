@@ -4,14 +4,14 @@ const Recommendation = () => {
       id: 1,
       title: "Zebronics Zeb256 Desktop",
       description: "Interactive laptop for better software use",
-      imageUrl: "/src/assets/images/computer5.png", // Replace with your image URL
+      imageUrl: "/images/computer5.png", // Replace with your image URL
     },
     {
       id: 2,
       title: "Lenovo Tab",
       description:
         "Bring this fascinating product with you so it can boost your output and keep you entertained all the while you’re out and about",
-      imageUrl: "/src/assets/images/tablet.png", // Replace with your image URL
+      imageUrl: "/images/tablet.png", // Replace with your image URL
     },
   ];
 

@@ -165,13 +165,13 @@ const Signin = () => {
         <div className="w-full lg:w-1/2 signin-back min-[360px]:h-screen flex flex-col items-center justify-center gap-10 p-3 lg:rounded-bl-[120px] px-36 max-[320px]:py-32">
           <div className="white-round min-w-[220px] min-h-[220px] bg-white rounded-full flex justify-center items-center">
             <img
-              src="src/assets/images/Seal_of_Uttarakhand.png"
+              src="/images/Seal_of_Uttarakhand.png"
               alt="background"
               className="w-[120px] h-[120px]"
             />
           </div>
           <h1 className="font-plus-jakarta text-white text-4xl font-bold whitespace-nowrap">Edu Track</h1>
-          <img src="src/assets/images/panda.png" className="min-w-[300px]" alt="panda" />
+          <img src="/images/panda.png" className="min-w-[300px]" alt="panda" />
         </div>
 
         {/* Footer */}

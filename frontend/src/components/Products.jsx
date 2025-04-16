@@ -107,7 +107,7 @@ const Products = () => {
                                 <td className="px-6 py-5 text-center">
                                     <div className="bg-[#FAFBFD] border border-[#D5D5D5] w-fit m-auto px-3 py-2 cursor-pointer rounded-lg">
                                         <img
-                                            src="/src/assets/images/pencil-write.svg"
+                                            src="/images/pencil-write.svg"
                                             width={15}
                                             alt="Edit"
                                             className="mx-auto"

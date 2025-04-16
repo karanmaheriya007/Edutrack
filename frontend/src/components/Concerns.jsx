@@ -3,7 +3,7 @@ const Concerns = () => {
   const products = [
     {
       id: 1,
-      image: "/src/assets/images/computer1.png",
+      image: "/images/computer1.png",
       name: "Zebronics Zeb256 Desktop",
       barcode: "156785454564665",
       concern: 2,
@@ -14,7 +14,7 @@ const Concerns = () => {
     },
     {
       id: 2,
-      image: "/src/assets/images/computer2.png",
+      image: "/images/computer2.png",
       name: "Mac Book",
       barcode: "156785454564665",
       concern: 50,
@@ -25,7 +25,7 @@ const Concerns = () => {
     },
     {
       id: 3,
-      image: "/src/assets/images/computer1.png",
+      image: "/images/computer1.png",
       name: "Dell work station",
       barcode: "156785454564665",
       concern: 2,
@@ -36,7 +36,7 @@ const Concerns = () => {
     },
     {
       id: 4,
-      image: "/src/assets/images/computer1.png",
+      image: "/images/computer1.png",
       name: "HP Desktop",
       barcode: "156785454564665",
       concern: 2,
@@ -47,7 +47,7 @@ const Concerns = () => {
     },
     {
       id: 5,
-      image: "/src/assets/images/computer1.png",
+      image: "/images/computer1.png",
       name: "Hp tochpad",
       barcode: "156785454564665",
       concern: 2,
@@ -65,7 +65,7 @@ const Concerns = () => {
       </div>
       <div className="flex bg-[#F9F9FB] border-[#D5D5D5] md:w-fit border h-[70px] overflow-x-scroll custom-scrollbar mt-8 rounded-xl font-nunito">
         <div className="filter_img h-full px-6 flex items-center border-[#D5D5D5] border-r">
-          <img src="/src/assets/images/filter.svg" className="min-w-[22px]" alt="" />
+          <img src="/images/filter.svg" className="min-w-[22px]" alt="" />
         </div>
         <div className="filter_text text-sm font-bold h-full px-6 flex items-center align-middle border-[#D5D5D5] border-r">
           <p className="font-nunito whitespace-nowrap">Filter By</p>
@@ -88,7 +88,7 @@ const Concerns = () => {
           </select>
         </div>
         <div className="reset_filter text-sm font-semibold gap-3 text-[#EA0234] h-full px-6 flex items-center cursor-pointer">
-          <img src="/src/assets/images/Path.svg" width={12} className="h-fit" alt="" />
+          <img src="/images/Path.svg" width={12} className="h-fit" alt="" />
           <p className="whitespace-nowrap pt-[3px]">Reset Filter</p>
         </div>
       </div>
@@ -156,7 +156,7 @@ const Concerns = () => {
                 {/* Action */}
                 <td className="px-5 py-5 text-center">
                   <button className="bg-[#FAFBFD] border border-[#D5D5D5] px-3 py-2 rounded-lg">
-                    <img src="/src/assets/images/topdown.svg" alt="View" />
+                    <img src="/images/topdown.svg" alt="View" />
                   </button>
                 </td>
               </tr>

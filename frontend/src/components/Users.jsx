@@ -29,7 +29,7 @@ const Users = () => {
         </div>
         <div className="flex bg-[#F9F9FB] border-[#D5D5D5] md:w-fit border h-[70px] overflow-x-scroll custom-scrollbar mt-10 rounded-xl">
           <div className="filter_img h-full px-6 flex items-center border-[#D5D5D5] border-r">
-            <img src="src/assets/images/filter.svg" className="min-w-[22px]" alt="" />
+            <img src="/images/filter.svg" className="min-w-[22px]" alt="" />
           </div>
           <div className="filter_text text-sm font-bold h-full px-6 flex items-center align-middle border-[#D5D5D5] border-r">
             <p className="font-nunito whitespace-nowrap">Filter By</p>
@@ -51,7 +51,7 @@ const Users = () => {
             </select>
           </div>
           <div className="reset_filter text-sm font-semibold gap-3 text-[#EA0234] h-full px-6 flex items-center cursor-pointer">
-            <img src="src/assets/images/Path.svg" width={12} className="h-fit" alt="" />
+            <img src="/images/Path.svg" width={12} className="h-fit" alt="" />
             <p className="whitespace-nowrap pt-[3px]">Reset Filter</p>
           </div>
         </div>

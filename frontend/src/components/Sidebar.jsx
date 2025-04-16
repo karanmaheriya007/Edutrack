@@ -67,7 +67,7 @@ const Sidebar = () => {
       >
         <div className="dashboard_logo mb-7 pt-4">
           <Link to="/">
-            <img src="/src/assets/images/LOGO.svg" className="mx-auto" width={160} alt="logo" />
+            <img src="/images/LOGO.svg" className="mx-auto" width={160} alt="logo" />
           </Link>
         </div>
         <div className="dashboard_menu relative">

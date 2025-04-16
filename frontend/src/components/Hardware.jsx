@@ -8,22 +8,22 @@ const Hardware = () => {
         {
             id: 1,
             title: "5 IFPDs",
-            image: "/src/assets/images/ifpd.png",
+            image: "/images/ifpd.png",
         },
         {
             id: 2,
             title: "12 Computers",
-            image: "/src/assets/images/computer.png",
+            image: "/images/computer.png",
         },
         {
             id: 3,
             title: "3 Projectors",
-            image: "/src/assets/images/projector.png",
+            image: "/images/projector.png",
         },
         {
             id: 4,
             title: "Tinkering Lab",
-            image: "/src/assets/images/lab.png",
+            image: "/images/lab.png",
         }
     ];
 

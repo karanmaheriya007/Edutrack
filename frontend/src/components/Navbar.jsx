@@ -64,7 +64,7 @@ const Navbar = () => {
                     <div className="nav_elements flex max-[320px]:gap-3 gap-5 items-center">
                         <HiMiniMagnifyingGlass id="search" className="text-[#7a7b7d] md:hidden" size={20} onClick={handleSearchClick} />
                         <div className="notification_bell flex relative">
-                            <img src="/src/assets/images/bell.svg" alt="" />
+                            <img src="/images/bell.svg" alt="" />
                             <span className="bg-[#F93C65] text-[#FEEAEF] h-[18px] w-[18px] text-center rounded-full text-xs absolute top-[-9px] left-3 border-[#FEEAEF] bottom-2">6</span>
                         </div>
                         <select id="options" name="options" className="focus:outline-none cursor-pointer text-sm font-semibold bg-white">
@@ -72,7 +72,7 @@ const Navbar = () => {
                             <option value="option2">Hindi</option>
                         </select>
                         <div className="user_profile flex gap-4">
-                            <img src="/src/assets/images/user.webp" alt="" className="user_img rounded-full" width={44} onClick={handleProfileClick} />
+                            <img src="/images/user.webp" alt="" className="user_img rounded-full" width={44} onClick={handleProfileClick} />
                             <div className="name_role md:flex hidden flex-col justify-center">
                                 <p className="text-sm font-bold">{fullName}</p>
                                 <p className="text-xs font-semibold">Admin</p>

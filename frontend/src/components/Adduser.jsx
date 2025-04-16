@@ -84,7 +84,7 @@ const Adduser = () => {
                                 <img src={photo} alt="Preview" className="w-full h-full object-cover" />
                             ) : (
                                 <span>
-                                    <img src="/src/assets/images/camera.svg" alt="Upload" />
+                                    <img src="/images/camera.svg" alt="Upload" />
                                 </span>
                             )}
                         </div>
