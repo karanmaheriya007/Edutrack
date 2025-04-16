@@ -3,7 +3,7 @@ const Logout = () => {
   const onLogout = () => {
     localStorage.removeItem("token")
     localStorage.removeItem("name")
-    window.location.href = "/signin"
+    window.location.href = "/"
   }
 
   return (
