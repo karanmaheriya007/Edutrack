@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import { useEffect, useState } from "react";
 import Snackbar from "@mui/material/Snackbar";
-import Navbar from "./components/navbar";
 import Dashboard from "./components/Dashboard";
 import Signin from "./components/Signin";
 import Sidebar from './components/Sidebar';
@@ -23,6 +22,7 @@ import Setting from "./components/Setting";
 import Signup from "./components/Signup";
 import { LinearProgress } from "@mui/material";
 import ProtectedRoute from "./components/ProtectedRoute";
+import Navbar from "./components/Navbar";
 
 const App = () => {
   const [progress, setProgress] = useState(0);
